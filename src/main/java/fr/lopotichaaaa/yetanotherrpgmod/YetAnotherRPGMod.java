@@ -1,5 +1,6 @@
 package fr.lopotichaaaa.yetanotherrpgmod;
 
+import fr.lopotichaaaa.yetanotherrpgmod.block.ModBlocks;
 import fr.lopotichaaaa.yetanotherrpgmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -38,6 +39,7 @@ public class YetAnotherRPGMod {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -55,6 +57,11 @@ public class YetAnotherRPGMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.STELLARIUM);
             event.accept(ModItems.INFUSED_STELLARIUM);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.STELLARIUM_BLOCK);
+            event.accept(ModBlocks.INFUSED_STELLARIUM_BLOCK);
         }
     }
 

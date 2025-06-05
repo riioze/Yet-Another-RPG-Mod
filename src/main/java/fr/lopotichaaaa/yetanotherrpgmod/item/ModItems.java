@@ -8,7 +8,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class ModItems {
     /**
-     * Contains all the Item Classes of the mod
+     * Contains all the Items of the mod
      */
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(YetAnotherRPGMod.MOD_ID);
 
