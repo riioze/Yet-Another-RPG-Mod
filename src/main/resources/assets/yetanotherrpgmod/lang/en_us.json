@@ -3,5 +3,8 @@
   "item.yetanotherrpgmod.infused_stellarium" : "Infused Stellarium",
 
   "block.yetanotherrpgmod.stellarium_block" : "Stellarium Block",
-  "block.yetanotherrpgmod.infused_stellarium_block" : "Infused Stellarium Block"
+  "block.yetanotherrpgmod.infused_stellarium_block" : "Infused Stellarium Block",
+
+  "creativetab.yetanotherrpgmod.stellarium_items" : "Stellarium Items",
+  "creativetab.yetanotherrpgmod.stellarium_blocks" : "Stellarium Blocks"
 }
