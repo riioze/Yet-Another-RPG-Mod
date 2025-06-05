@@ -2,6 +2,8 @@
   "item.yetanotherrpgmod.stellarium" : "Stellarium",
   "item.yetanotherrpgmod.infused_stellarium" : "Infused Stellarium",
 
+  "block.yetanotherrpgmod.stellarium_ore" : "Stellarium Ore",
+  "block.yetanotherrpgmod.stellarium_deepslate_ore" : "Stellarium Deepslate Ore",
   "block.yetanotherrpgmod.stellarium_block" : "Stellarium Block",
   "block.yetanotherrpgmod.infused_stellarium_block" : "Infused Stellarium Block",
 

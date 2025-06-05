@@ -36,6 +36,8 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters,output) -> {
                         output.accept(ModBlocks.STELLARIUM_BLOCK);
                         output.accept(ModBlocks.INFUSED_STELLARIUM_BLOCK);
+                        output.accept(ModBlocks.STELLARIUM_ORE);
+                        output.accept(ModBlocks.STELLARIUM_DEEPSLATE_ORE);
                     })
                     .build()
     );

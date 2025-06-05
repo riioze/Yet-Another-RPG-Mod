@@ -2,9 +2,11 @@ package fr.lopotichaaaa.yetanotherrpgmod.block;
 
 import fr.lopotichaaaa.yetanotherrpgmod.YetAnotherRPGMod;
 import fr.lopotichaaaa.yetanotherrpgmod.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
@@ -31,6 +33,19 @@ public class ModBlocks {
                     .strength(4f)
                     .requiresCorrectToolForDrops().
                     sound(SoundType.AMETHYST)
+            ));
+
+    public static final DeferredBlock<Block> STELLARIUM_ORE = registerBlock("stellarium_ore",
+            () -> new DropExperienceBlock(UniformInt.of(4,6), BlockBehaviour.Properties.of()
+                    .strength(3f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
+            ));
+    public static final DeferredBlock<Block> STELLARIUM_DEEPSLATE_ORE = registerBlock("stellarium_deepslate_ore",
+            () -> new DropExperienceBlock(UniformInt.of(4,6), BlockBehaviour.Properties.of()
+                    .strength(4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)
             ));
 
     /**
