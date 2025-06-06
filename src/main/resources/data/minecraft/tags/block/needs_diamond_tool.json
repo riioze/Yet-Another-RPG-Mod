@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values" : [
+    "yetanotherrpgmod:stellarium_block",
+    "yetanotherrpgmod:stellarium_ore",
+    "yetanotherrpgmod:stellarium_deepslate_ore",
+    "yetanotherrpgmod:infused_stellarium_block"
+  ]
+}
